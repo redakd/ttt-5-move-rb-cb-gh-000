@@ -10,6 +10,7 @@ end
 def input_to_index(number)
   index = number.to_i
   if index <= 9 and index >= 1
+    index = index - 1
   end
 end
 
