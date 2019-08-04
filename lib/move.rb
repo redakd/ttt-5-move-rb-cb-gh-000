@@ -8,8 +8,8 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(number)
-  if number <= 9 and number >= 1
-    index = number.to_i - 1
+  index = number.to_i
+  if index <= 9 and index >= 1
   end
 end
 
