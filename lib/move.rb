@@ -12,5 +12,5 @@ def input_to_index('number_adder'.to_i)
 end
 
 def move (board,position,character = "X")
-  board[0] = character
+  board[position] = character
 end
