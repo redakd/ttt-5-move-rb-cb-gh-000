@@ -9,5 +9,4 @@ end
 # code your input_to_index and move method here!
 def input_to_index(number_adder)
   Number = number_adder.gets.integer - 1
-  
 end
