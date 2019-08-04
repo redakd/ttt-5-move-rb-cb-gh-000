@@ -10,7 +10,7 @@ end
 def input_to_index(number)
   if number =< 9 and number >= 1 
 
-  index = number.to_i - 1 
+  index = number.to_i - 1
 end
 
 def move (board,position,character = "X")
